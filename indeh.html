@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css" integrity="sha512-6c4nX2tn5KbzeBJo9Ywpa0Gkt+mzCzJBrE1RB6fmpcsoN+b/w/euwIMuQKNyUoU/nToKN3a8SgNOtPrbW12fug==" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+    <title>tours</title>
+</head>
+
+<body>  
+    <div class="add"></div>
+
+    <div class="wrapper">
+        <header class="header">
+                <div class="container">
+                    <div class="header__top">
+                        <div class="header__logo">
+                            <h1>Uzbekiston</h1>
+                        </div>
+                        <div class="header__menu menu">
+                            <ul class="menu__list">
+                                <li class="menu__lenk"><a href="indeh.html">Home</a></li>
+                                <li class="menu__lenk"><a href="About.html">About as</a></li>
+                                <li class="menu__lenk"><a href="servic.html">Service</a></li>
+                                <li class="menu__lenk"><a href="hotel.html">Hotel</a></li>
+                                <li class="menu__lenk"><a href="contact.html">Contact</a></li>
+                            </ul>
+                            <li class="menu__icon">
+                                <span class="span__icon"></span>
+                                <span class="span__icon"></span>
+                                <span class="span__icon"></span>
+                            </li>
+                        </div>
+                    </div>
+                </div>
+        </header>
+        <section>
+            <div class="container">
+                <div class="main">
+                    <div class="main__left">
+                        <div class="main__swiper">
+                            <img class="main__images"  src="img/registon.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="main__right">
+                        <div class="form-field">
+                            <div class="form-item">
+                                <form method="POST" action="http://www.shahriyor-tour.uz/orders" accept-charset="UTF-8"><input name="_token" type="hidden" value="InCpKDoFf1tqOFqNdVJCd9j7YTmXcqDdaPRZoybu">
+                                <input type="hidden" name="_token" value="InCpKDoFf1tqOFqNdVJCd9j7YTmXcqDdaPRZoybu"> <h2> Search hotel</h2>
+                                                        <div class="tw-form-fields">
+                                    <ul class="tw-form-field">
+                                        <li class="city-item">
+                                            <label for="city">City*</label>
+                                            <input class="form-control  your-city" id="validationServer03" aria-describedby="validationServer03Feedback" name="city" type="text" value="">
+                                                                            </li>
+                                        <li class="number-item">
+                                            <label for="number_tourist">Number of tourists*</label>
+                                            <input class="form-control  num-tour" id="validationServer03" aria-describedby="validationServer03Feedback" name="number_t" type="text" value="">
+                                                                            </li>
+                                    </ul>
+                                </div>
+                                <div class="tw-form-fields">
+                                    <ul class="tw-form-field">
+                                        <li class="select-item">
+                                            <label for="tour_program">Tour program*</label>
+                                            <select name="tour_p"><option value="Classic tour">Classic tour</option><option value="Historical places of Uzbekistan">Historical places of Uzbekistan</option><option value="Uzbekistan is the cradle of eastern civilizations">Uzbekistan is the cradle of eastern civilizations</option><option value="Ancient cities of Uzbekistan">Ancient cities of Uzbekistan</option></select>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tw-form-fields">
+                                    <ul class="tw-form-field">
+                                        <li class="date-field">
+                                            <label for="arrival_date">Arrival date*</label>
+                                            <input name="a_date" type="date" value="2021-05-12">
+                                        </li>
+                                        <li class="date-field">
+                                            <label for="departure_date">Departure date*</label>
+                                            <input name="d_date" type="date" value="2021-05-12">
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tw-form-fields">
+                                    <ul class="tw-form-field">
+                                        <li class="child">
+                                            <label for="adult">Adults or schoolchildren*</label>
+                                            <select name="child"><option value="adult">adult</option><option value="schoolchild">schoolchild</option></select>
+                                            
+                                        </li>
+                                        <li class="hotel">
+                                            <label for="hotel">Hotel category*</label>
+                                            <div class="fas">
+                                                <select id="hotel" name="hotel"><option value="1 star">&#xf005;</option><option value="2 stars">&#xf005;&#xf005;</option><option value="3 stars">&#xf005;&#xf005;&#xf005;</option><option value="4 stars">&#xf005;&#xf005;&#xf005;&#xf005;</option><option value="5 stars">&#xf005;&#xf005;&#xf005;&#xf005;&#xf005;</option></select>
+                                            </div>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="tw-form-fields">
+                                    <ul class="tw-form-field">
+                                        <li class="phone">
+                                            <label for="phone">Phone*</label>
+                                            <input class="form-control " id="validationServer03" aria-describedby="validationServer03Feedback" name="phone" type="text" value="">
+                                                                            </li>
+                                        <li class="email">
+                                            <label for="email">E-mail*</label>
+                                            <input class="form-control " id="validationServer03" aria-describedby="validationServer03Feedback" name="email" type="text" value="">
+                                                                            </li>
+                                    </ul>
+                                </div>
+                                <div class="btn-cnt">
+                                    <input class="btn-send" type="submit" value="Send message">
+                                </div>
+                                </form>
+                            </div>
+                        </div> 
+                    </div>
+                </div>
+            </div>
+            <div class="container">
+                <div class="hotel__start">
+    
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="hotel">
+                <div class="container">
+                    <div class="hotel__menu">
+                        <h1 class="hotel__title">HOTEL SERVICES / </h1>
+                        <div class="hotel__button"><a href="hotel.html">LIST OF ALL HOTELS</a> </div>
+                    </div>
+                    <div class="hotel__content">
+                        <div class="swiper-container">
+                            <div class="swiper-wrapper">
+                                <div class=" sss swiper-slide"><img style="width: 100%; height: 270px; object-fit: cover; " src="https://tourist.uz/images/hotel_img/1378195210_683.jpg" alt="Al-Hosilot Hotel">
+                                    <div class="carusel__name">
+                                        <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/17" title="Al-Hosilot Hotel">Al-Hosilot Hotel</a></h1>
+                                    </div>
+                                    <div class="carusel__start">
+                                        <div class="star__icon"> 
+                                            <div class="big_stars_1" title="Количество звезд 1"></div>
+                                        </div>
+                                    </div>
+                                    <p class="carusel__text"> 
+                                        Республика Узбекистан, г. Ташкент, Яккасайрайский р-н, ул. Ш. Рустаелли, 95                      </p>
+                                    <div class="carusel__button">
+                                        <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img style="width: 100%; height: 270px; object-fit: cover; " src="https://tourist.uz/images/hotel_img/1367763068_913.JPG" alt="Grand Orzu Hotel">
+                                    <div class="carusel__name">
+                                        <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/6" title="Grand Orzu Hotel">Grand Orzu Hotel</a></h1>
+                                    </div>
+                                    <div class="carusel__start">
+                                        <div class="star__icon"></div>
+                                    </div>
+                                    <p class="carusel__text">
+                                        Республика Узбекистан, г. Ташкент, улица Махмуда Тароби 27, 100015                     </p>
+                                    <div class="carusel__button">
+                                        <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"> <img style="width: 100%; height: 270px; object-fit: cover; " src="https://tourist.uz/images/web_img/basic/no_img.png" alt="Astoria Mir Hotel">
+                                    <div class="carusel__name">
+                                        <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/22" title="Astoria Mir Hotel">Astoria Mir Hotel</a></h1>
+                                    </div>
+                                    <div class="carusel__start">
+                                        <div class="star__icon"></div>
+                                    </div>
+                                    <p class="carusel__text">
+                                        Республика Узбекистан, г. Ташкент, Яккасарайский р-н, ул. Шота Руставели, 105                     </p>
+                                    <div class="carusel__button">
+                                        <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"> <img style="width: 100%; height: 270px; object-fit: cover; " src="https://tourist.uz/images/hotel_img/1378201427_997.jpg" alt="Aziz Mehmon Hotel">
+                                    <div class="carusel__name">
+                                        <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/24" title="Aziz Mehmon Hotel">Aziz Mehmon Hotel</a></h1>
+                                    </div>
+                                    <div class="carusel__start">
+                                        <div class="star__icon"></div>
+                                    </div>
+                                    <p class="carusel__text">
+                                        Республика Узбекистан, г. Ташкент, Шайхонтохурский р-н, ул. Ш. Абзалова, 9, 100055                     </p>
+                                    <div class="carusel__button">
+                                        <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img style="width: 100%; height: 270px; object-fit: cover; " src="https://tourist.uz/images/hotel_img/1378202387_89.jpg" alt="Beldersoy Oromgohi Hotel">
+                                
+                                    <div class="carusel__name">
+                                        <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/25" title="Beldersoy Oromgohi Hotel">Beldersoy Oromgohi Hotel</a></h1>
+                                    </div>
+                                    <div class="carusel__start">
+                                        <div class="star__icon"></div>
+                                    </div>
+                                    <p class="carusel__text">
+                                        Республика Узбекистан, ущелье Бельдерсай                     </p>
+                                    <div class="carusel__button">
+                                        <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"><img style="width: 100%; height: 270px; object-fit: cover; " src="https://tourist.uz/images/hotel_img/1378207503_101.jpg" alt="Diyor Bek Hotel">
+                                    <div class="carusel__name">
+                                        <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/28" title="Diyor Bek Hotel">Diyor Bek Hotel</a></h1>
+                                    </div>
+                                    <div class="carusel__start">
+                                        <div class="star__icon"></div>
+                                    </div>
+                                    <p class="carusel__text">
+                                        Республика Узбекистан, г. Ташкент, ул. Шохжахон, 29                     </p>
+                                    <div class="carusel__button">
+                                        <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                    </div>
+                                </div>
+                                <div class="swiper-slide"> <img style="width: 100%; height: 270px; object-fit: cover; " src="https://tourist.uz/images/hotel_img/1378211164_81.jpg" alt="Glen-Eden Hotel">
+                                    <div class="carusel__name">
+                                        <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/31" title="Glen-Eden Hotel">Glen-Eden Hotel</a></h1>
+                                    </div>
+                                    <div class="carusel__start">
+                                        <div class="star__icon"></div>
+                                    </div>
+                                    <p class="carusel__text">
+                                        Республика Узбекистан, г. Ташкент, ул. Чавандоз, 16-18                     </p>
+                                    <div class="carusel__button">
+                                        <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!-- Add Pagination -->
+                            <div class="swiper-pagination"></div>
+                            
+                            <div class="swiper-button-next"></div>
+                            <div class="swiper-button-prev"></div>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+        </section>
+        <section>
+            <div class="excurs">
+                <div class="container">
+                    <div class="excurs__title">Tour Programs</div>
+                    <div class="excurs__column">
+                        <div class="excurs__img">
+                            <img src="http://www.shahriyor-tour.uz/img/1280x673-4.jpg" alt="Primary Image">
+                        </div>
+    
+                        <div class="pr-title">
+                            <h2>Ancient cities of Uzbekistan</h2>
+    
+                            <div class="pr-title-items">
+                                <div class="pr-route">
+                                    <ul>
+                                        <li><i class="fa fa-map-marker-alt"></i> routes</li>
+                                        <li>Urgench Khiva Bukhara Samarkand</li>
+                                    </ul>
+                                </div>
+                                <div class="pr-duration">
+                                    <ul>
+                                        <li><i class="fa fa-clock"></i> duration</li>
+                                        <li>5 Days</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="excurs__column">
+                        <div class="excurs__img">
+                            <img src="http://www.shahriyor-tour.uz/img/1280x673-1.jpg" alt="Primary Image">
+                        </div>
+                        <div class="pr-title">
+                            <h2>Classic tour</h2>
+                            <div class="pr-title-items">
+                                <div class="pr-route">
+                                    <ul>
+                                        <li><i class="fa fa-map-marker-alt"></i> routes</li>
+                                        <li>Tashkent Urgench Khiva Bukhara Samarkand</li>
+                                    </ul>
+                                </div>
+                                <div class="pr-duration">
+                                    <ul>
+                                        <li><i class="fa fa-clock"></i> duration</li>
+                                        <li>5 Days</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="excurs__column">
+                        <div class="excurs__img">
+                            <img src="http://www.shahriyor-tour.uz/img/1280x673-2.jpg" alt="Primary Image">
+                        </div>
+    
+                        <div class="pr-title">
+                            <h2>Historical places of Uzbekistan</h2>
+    
+                            <div class="pr-title-items">
+                                <div class="pr-route">
+                                    <ul>
+                                        <li><i class="fa fa-map-marker-alt"></i> routes</li>
+                                        <li>Tashkent Urgench Khiva Bukhara Shahrisabz Samarkand</li>
+                                    </ul>
+                                </div>
+                                <div class="pr-duration">
+                                    <ul>
+                                        <li><i class="fa fa-clock"></i> duration</li>
+                                        <li>8 Days</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="excurs__column">
+                        <div class="excurs__img">
+                            <img src="http://www.shahriyor-tour.uz/img/1280x673-3.jpg" alt="Primary Image">
+                        </div>
+    
+                        <div class="pr-title">
+                            <h2>Uzbekistan is the cradle of eastern civilizations</h2>
+    
+                            <div class="pr-title-items">
+                                <div class="pr-route">
+                                    <ul>
+                                        <li><i class="fa fa-map-marker-alt"></i> routes</li>
+                                        <li>Tashkent Khiva Bukhara Shahrisabz Samarkand Fergana Margilan Kokand</li>
+                                    </ul>
+                                </div>
+                                <div class="pr-duration">
+                                    <ul>
+                                        <li><i class="fa fa-clock"></i> duration</li>
+                                        <li>15 Days</li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="fwt-footer container">
+                <ul class="social-field">
+                    <li>follow us</li>
+                    <li><i class="fa fa-facebook fa-1x"></i></li>
+                    <li><i class="fa fa-telegram fa-1x"></i></li>
+                    <li><i class="fa fa-whatsapp fa-1x"></i></li>
+                </ul>
+                <hr>
+                <div class="fwt-contact">
+                    <ul class="col-contact">
+                        <h4>Contact Us</h4>
+                        <li><i class="fa fa-map-marker"></i>&nbsp; Str. M.Ulugbek, 150 Samarkand city, 140107 Uzbekistan</li>
+                        <li><i class="fa fa-phone"></i>&nbsp; (+998 93) 999-19-68</li>
+                        <li><i class="fa fa-envelope-open-text"></i>&nbsp; rahman2003@rambler.ru</li>
+                    </ul>
+                    <ul class="col-about">
+                        <h4><i class="fa fa-award"></i> License</h4>
+                        <p>The travel company "Shahriyor-Tur" was established on January 20, 2006 and has a license (Т-0583-14) and a certificate (UZ.SMT.02.361.011881) for tour operator activities.</p>
+                    </ul>
+                </div>
+                <div class="fwt-tm">
+                    <img src="http://www.shahriyor-tour.uz/img/white-logo.png" alt=""><br>
+                    <small>&copy; 1997-2021</small>
+                </div>
+            </div>
+        </footer>   
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="swiper.js" type="module"></script>
+    <script src="script.js " type="module"></script>
+</body>
+
+</html>

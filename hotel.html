@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.2.0/css/all.min.css"
+        integrity="sha512-6c4nX2tn5KbzeBJo9Ywpa0Gkt+mzCzJBrE1RB6fmpcsoN+b/w/euwIMuQKNyUoU/nToKN3a8SgNOtPrbW12fug=="
+        crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="style.css">
+    <title>hotel</title>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__top">
+                    <div class="header__logo">
+                        <h1>Uzbekiston</h1>
+                    </div>
+                    <div class="header__menu menu">
+                        <ul class="menu__list">
+                            <li class="menu__lenk"><a href="indeh.html">Home</a></li>
+                            <li class="menu__lenk"><a href="About.html">About as</a></li>
+                            <li class="menu__lenk"><a href="servic.html">Service</a></li>
+                            <li class="menu__lenk"><a href="hotel.html">Hotel</a></li>
+                            <li class="menu__lenk"><a href="contact.html">Contact</a></li>
+                        </ul>
+                        <li class="menu__icon">
+                            <span class="span__icon"></span>
+                            <span class="span__icon"></span>
+                            <span class="span__icon"></span>
+                        </li>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section>
+            <div class="nav__container">
+                <div class="container table__form">
+                    <form class="table__form-display" method="POST" action="http://www.shahriyor-tour.uz/orders"
+                        accept-charset="UTF-8">
+                        <div class="form__table">
+                            <ul class="form__list">
+                                <li class="form__link">
+                                    <label for="city">City*</label>
+                                    <input class="form-control  your-city" id="validationServer03"
+                                        aria-describedby="validationServer03Feedback" name="city" type="text" value="">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="form__table">
+                            <ul class="form__list">
+                                <li class="form__link">
+                                    <label for="number_tourist">Number of tourists*</label>
+                                    <input class="form-control  num-tour" id="validationServer03"
+                                        aria-describedby="validationServer03Feedback" name="number_t" type="text"
+                                        value="">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tw-form-fields">
+                            <ul class="tw-form-field">
+                                <li class="date-field">
+                                    <label for="arrival_date">Arrival date*</label>
+                                    <input name="a_date" type="date" value="2021-05-12">
+                                </li>
+                                <li class="date-field">
+                                    <label for="departure_date">Departure date*</label>
+                                    <input name="d_date" type="date" value="2021-05-12">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="tw-form-fields">
+                            <ul class="tw-form-field">
+                                <li class="child">
+                                    <label for="adult">Adults or schoolchildren*</label>
+                                    <select name="child">
+                                        <option value="adult">adult</option>
+                                        <option value="schoolchild">schoolchild</option>
+                                    </select>
+
+                                </li>
+                                <li class="hotel">
+                                    <label for="hotel">Hotel category*</label>
+                                    <div class="fas">
+                                        <select id="hotel" name="hotel">
+                                            <option value="1 star">&#xf005;</option>
+                                            <option value="2 stars">&#xf005;&#xf005;</option>
+                                            <option value="3 stars">&#xf005;&#xf005;&#xf005;</option>
+                                            <option value="4 stars">&#xf005;&#xf005;&#xf005;&#xf005;
+                                            </option>
+                                            <option value="5 stars">&#xf005;&#xf005;&#xf005;&#xf005;&#xf005;
+                                            </option>
+                                        </select>
+                                    </div>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="table__form-btn">
+                            <input class="table__form-btn-btn" type="submit" value="Send message">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+        <section>
+            <div class="hotel__page">
+                <div class="container">
+                    <div class="carusel-container">
+                        <div class="carusel-wrapper">
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378195210_683.jpg" alt="Al-Hosilot Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/17"
+                                            title="Al-Hosilot Hotel">Al-Hosilot Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon">
+                                        <div class="big_stars_1" title="Количество звезд 1"></div>
+                                    </div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Ташкент, Яккасайрайский р-н, ул. Ш. Рустаелли, 95 </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1367763068_913.JPG" alt="Grand Orzu Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/6"
+                                            title="Grand Orzu Hotel">Grand Orzu Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Ташкент, улица Махмуда Тароби 27, 100015 </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/web_img/basic/no_img.png" alt="Astoria Mir Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/22"
+                                            title="Astoria Mir Hotel">Astoria Mir Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Ташкент, Яккасарайский р-н, ул. Шота Руставели, 105 </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378201427_997.jpg"
+                                    alt="Aziz Mehmon Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/24"
+                                            title="Aziz Mehmon Hotel">Aziz Mehmon Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Ташкент, Шайхонтохурский р-н, ул. Ш. Абзалова, 9, 100055
+                                </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378202387_89.jpg"
+                                    alt="Beldersoy Oromgohi Hotel">
+
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/25"
+                                            title="Beldersoy Oromgohi Hotel">Beldersoy Oromgohi Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, ущелье Бельдерсай </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378207503_101.jpg" alt="Diyor Bek Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/28"
+                                            title="Diyor Bek Hotel">Diyor Bek Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Ташкент, ул. Шохжахон, 29 </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378211164_81.jpg" alt="Glen-Eden Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/31"
+                                            title="Glen-Eden Hotel">Glen-Eden Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Ташкент, ул. Чавандоз, 16-18 </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378369114_449.jpg"
+                                    alt="Grand Radus - JSS Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/32"
+                                            title="Grand Radus - JSS Hotel">Grand Radus - JSS Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Ташкент, ул. Кичик Миробод 11, 2 проезд </p>
+                                <div class="carusel__button">
+
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378375287_417.jpg"
+                                    alt="Gulnara  B&amp;B Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/36"
+                                            title="Gulnara  B&amp;B Hotel">Gulnara B&amp;B Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Алмазарский р-н, ул. ОЗОД, 40 </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378406388_574.jpg" alt="Mirzo Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/40"
+                                            title="Mirzo Hotel">Mirzo Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Ташкент, Алмазарский р-н, ул. САГБАН, 95 </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378407598_532.jpg" alt="Rovshan Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/42"
+                                            title="Rovshan Hotel">Rovshan Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Ташкент, Алмазарский р-н, ул. САГБАН, 95 </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378485711_520.jpeg"
+                                    alt="Kapoor International Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/45"
+                                            title="Kapoor International Hotel">Kapoor International Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378531909_354.jpg" alt="Oazis Aka Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/47"
+                                            title="Oazis Aka Hotel">Oazis Aka Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Ташкент, Фаргона йули 23 </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378543995_412.jpg" alt="Radus JSS Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/49"
+                                            title="Radus JSS Hotel">Radus JSS Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Ташкент, Яккасарайский р-н, ул. Хамида Сулейманова, 39/41
+                                </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                            <div class="carusel-slide">
+                                <img style="width: 100%; height: 270px; object-fit: cover; "
+                                    src="https://tourist.uz/images/hotel_img/1378544405_940.jpg"
+                                    alt="Shodlik Palace Hotel">
+                                <div class="carusel__name">
+                                    <h1><a href="https://tourist.uz/ru/hotels/tashkent_hotels/50"
+                                            title="Shodlik Palace Hotel">Shodlik Palace Hotel</a></h1>
+                                </div>
+                                <div class="carusel__start">
+                                    <div class="star__icon"></div>
+                                </div>
+                                <p class="carusel__text">
+                                    Республика Узбекистан, г. Бухара, ул. Ширбудина, 56 </p>
+                                <div class="carusel__button">
+                                    <a href="#" title="Показать цены" class="recom_hotel_more">Показать цены</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <footer>
+            <div class="fwt-footer">
+                <ul class="social-field">
+                    <li>follow us</li>
+                    <li><i class="fa fa-facebook fa-1x"></i></li>
+                    <li><i class="fa fa-telegram fa-1x"></i></li>
+                    <li><i class="fa fa-whatsapp fa-1x"></i></li>
+                </ul>
+                <hr>
+                <div class="fwt-contact">
+                    <ul class="col-contact">
+                        <h4>Contact Us</h4>
+                        <li><i class="fa fa-map-marker"></i>&nbsp; Str. M.Ulugbek, 150 Samarkand city, 140107 Uzbekistan
+                        </li>
+                        <li><i class="fa fa-phone"></i>&nbsp; (+998 93) 999-19-68</li>
+                        <li><i class="fa fa-envelope-open-text"></i>&nbsp; rahman2003@rambler.ru</li>
+                    </ul>
+                    <ul class="col-about">
+                        <h4><i class="fa fa-award"></i> License</h4>
+                        <p>The travel company "Shahriyor-Tur" was established on January 20, 2006 and has a license
+                            (Т-0583-14) and a certificate (UZ.SMT.02.361.011881) for tour operator activities.</p>
+                    </ul>
+                </div>
+                <div class="fwt-tm">
+                    <img src="http://www.shahriyor-tour.uz/img/white-logo.png" alt=""><br>
+                    <small>&copy; 1997-2021</small>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.js"></script>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script src="swiper.js" type="module"></script>
+    <script src="script.js " type="module"></script>
+</body>
+
+
+</html>
